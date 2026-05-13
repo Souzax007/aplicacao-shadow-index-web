@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Shadow Index">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020406"/>
+      <stop offset="100%" stop-color="#0b1218"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="28" fill="url(#bg)"/>
+  <circle cx="96" cy="96" r="62" fill="none" stroke="#31ff75" stroke-width="8" opacity="0.9"/>
+  <path d="M66 64h60v52H66z" fill="none" stroke="#27c8ff" stroke-width="7"/>
+  <circle cx="82" cy="84" r="8" fill="#31ff75"/>
+  <circle cx="110" cy="84" r="8" fill="#31ff75"/>
+  <rect x="83" y="104" width="26" height="8" fill="#ffb454"/>
+</svg>

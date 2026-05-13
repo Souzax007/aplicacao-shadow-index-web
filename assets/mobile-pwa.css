@@ -1,0 +1,137 @@
+/* Mobile/PWA layer: only overrides small screens and touch interactions. */
+
+@media (max-width: 900px) {
+    body {
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+    body::before {
+        opacity: 0.55;
+    }
+
+    .max-w-7xl {
+        max-width: 100%;
+    }
+
+    .cyber-nav .max-w-7xl,
+    .max-w-7xl {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .brand-title {
+        font-size: 0.95rem;
+        letter-spacing: 1px;
+    }
+
+    .skull-icon {
+        font-size: 1.45rem;
+    }
+
+    .tabs-border {
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        white-space: nowrap;
+    }
+
+    .tab-btn {
+        flex: 0 0 auto;
+        font-size: 0.78rem;
+        padding: 10px 12px;
+        min-height: 42px;
+    }
+
+    .section-title {
+        font-size: 0.72rem;
+        letter-spacing: 1px;
+    }
+
+    .stat-num {
+        font-size: 1.45rem !important;
+    }
+
+    .cyber-card {
+        border-radius: 6px;
+    }
+
+    .chart-box {
+        padding: 14px;
+    }
+
+    .cyber-table th,
+    .cyber-table td {
+        padding: 8px 9px;
+        font-size: 0.74rem;
+        white-space: nowrap;
+    }
+
+    .btn-primary,
+    .btn-view {
+        min-height: 40px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .btn-view {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #finderPanelTitle {
+        font-size: 0.78rem;
+        max-width: 62%;
+    }
+
+    #showAllBtn {
+        font-size: 0.78rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #detailModal .cyber-modal {
+        width: calc(100vw - 18px);
+        margin: 9px;
+        padding: 15px;
+        max-height: 94vh;
+    }
+
+    .tool-card {
+        padding: 12px;
+    }
+
+    .radio-toolbar {
+        top: 58px;
+    }
+
+    .radio-auto-label {
+        min-height: 38px;
+    }
+
+    .btn-radio-fix {
+        min-height: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #radioModeStatus {
+        line-height: 1.35;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .cyber-card:hover,
+    .tool-card:hover,
+    .btn-primary:hover,
+    .btn-view:hover,
+    .tab-btn:hover,
+    .sort-pill:hover {
+        box-shadow: none;
+    }
+
+    .cyber-card:hover::before {
+        opacity: 0;
+    }
+}
