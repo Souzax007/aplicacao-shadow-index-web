@@ -1,5 +1,6 @@
 # Shadow Index
 
+
 Shadow Index e a interface auxiliar que exibe, organiza e filtra os dados coletados pela aplicacao principal. Ela transforma o catalogo bruto em uma vitrine navegavel de ferramentas, estatisticas, rankings, historico de varreduras e monitoramento visual.
 
 Descricao curta para GitHub:
