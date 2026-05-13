@@ -7,6 +7,10 @@ Descricao curta para GitHub:
 
 Shadow Index e a camada visual do ecossistema OSINT: uma interface auxiliar para consultar ferramentas, explorar estatisticas e acompanhar os dados coletados em tempo real.
 
+## Preview da plataforma
+
+![Preview da plataforma Shadow Index](img/image.png)
+
 ## O que esta aplicacao faz
 
 1. Lista ferramentas com paginacao.
