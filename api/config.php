@@ -55,11 +55,11 @@ function env_value($key, $default = null) {
 
 load_env_file(__DIR__ . '/../.env');
 
-$DB_HOST = env_value('DB_HOST', 'mysql-1121785-marcossouzagg17-8311.e.aivencloud.com');
-$DB_USER = env_value('DB_USER', 'avnadmin');
-$DB_PASSWORD = env_value('DB_PASSWORD', 'AVNS_LUur7o5Y1_DQnWD89Sn');
-$DB_NAME = env_value('DB_NAME', 'osint_tools');
-$DB_PORT = (int) env_value('DB_PORT', '21431');
+$DB_HOST = env_value('DB_HOST', '');
+$DB_USER = env_value('DB_USER', '');
+$DB_PASSWORD = env_value('DB_PASSWORD', '');
+$DB_NAME = env_value('DB_NAME', '');
+$DB_PORT = (int) env_value('DB_PORT', '');
 
 
 if ($DB_USER === '' || $DB_NAME === '') {
